@@ -1,0 +1,39 @@
+/* Site-specific overrides, kept separate from the template's main.css */
+
+/* Last project card on its own (odd number of cards): span the full row
+   instead of leaving an empty cell beside it. */
+@media screen and (min-width: 737px) {
+	#main > .posts > article:last-child:nth-child(odd) {
+		width: 100%;
+		border-left-width: 0;
+	}
+	#main > .posts > article:last-child:nth-child(odd) .image.fit {
+		max-width: 32rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Shorter intro on phones so content appears sooner. */
+@media screen and (max-width: 736px) {
+	#intro {
+		min-height: 0;
+		padding-top: 7rem;
+		padding-bottom: 3rem;
+	}
+}
+
+/* Skills list on the About page: labelled rows instead of colour-only groups. */
+.skills dt {
+	font-weight: 700;
+	margin-top: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	font-size: 0.8rem;
+}
+.skills dt:first-child { margin-top: 0; }
+.skills dd { margin-left: 0; margin-bottom: 0; }
+.skills .hashtag { white-space: nowrap; margin-right: 0.5rem; }
+.skills-active { color: #c2472f; }
+.skills-past   { color: #1a7f8a; }
+.skills-learn  { color: #2f7d52; }
