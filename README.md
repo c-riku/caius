@@ -1,19 +1,13 @@
-# Caius Ribeiro – Portfolio
+# caius (moved)
 
-Source for my personal portfolio website: data and BI projects (Power BI, SQL) and my research on forest fires and soil greenhouse gas emissions.
+My portfolio has moved to **https://c-riku.github.io/** (source: [c-riku/c-riku.github.io](https://github.com/c-riku/c-riku.github.io)).
 
-**Live site:** https://c-riku.github.io/caius/
+This repository now only redirects old links:
 
-## Structure
-
-| Path | Contents |
+| Old URL | Redirects to |
 |---|---|
-| `index.html` | Portfolio page (projects and publications) |
-| `generic.html` | About me |
-| `images/` | Project and profile images |
-| `assets/` | Template CSS, JavaScript and fonts |
+| `https://c-riku.github.io/caius/` | `https://c-riku.github.io/` |
+| `https://c-riku.github.io/caius/generic.html` (About me) | `https://c-riku.github.io/#career` |
+| Any other `/caius/...` path | `https://c-riku.github.io/` |
 
-## Credits
-
-Design: [Massively](https://html5up.net/massively) by [HTML5 UP](https://html5up.net), used under the [Creative Commons Attribution 3.0 license](https://html5up.net/license).
-Icons: [Font Awesome](https://fontawesome.com). Scripts: jQuery, Scrollex, Responsive Tools.
+The previous site (based on the Massively template by HTML5 UP) is still in the git history.
